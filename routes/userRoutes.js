@@ -1,5 +1,5 @@
 const express = require('express')
-const { register, login, logout,refreshToken, getAlluser, updateUserRole, getSingleUser } = require('../controllers/userCtrl')
+const { register, login, logout,refreshToken, getAlluser, updateUserRole, getSingleUser } = require('../controllers/UserCtrl')
 const { requireSignIn, adminMiddleware } = require('../middelwares')
 
 
